@@ -1,4 +1,4 @@
 qgis-topo-style
 ===============
 
-This is QGIS TOPO style files.
+This is qgis TOPO-like style files. They works fine for me for processing OSM data.
