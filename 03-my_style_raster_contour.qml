@@ -13,7 +13,6 @@
       <rule scalemaxdenom="250000" key="{900ccc11-0f59-407e-a5a2-bb639f7c0cfa}" scalemindenom="500" label="contour">
         <rule filter=" ELEV  like  '%00'" key="{538b9089-7081-4b64-b159-583a5bd4cf0a}" symbol="0" label="contour_major"/>
         <rule filter=" ELEV  like  '%50'" key="{909c84df-ef56-48e8-8078-563db0263927}" symbol="1" label="contour_medium"/>
-        <rule filter=" ELEV  like  '%10' or  ELEV  like  '%20' or  ELEV  like  '%30' or  ELEV  like  '%40' or  ELEV  like  '%60' or  ELEV  like  '%70' or  ELEV  like  '%80' or  ELEV  like  '%90'" key="{f69c27d6-48db-4d41-aaa9-c171cddba5ac}" symbol="2" label="contour_minor"/>
       </rule>
     </rules>
     <symbols>
@@ -25,9 +24,9 @@
           <prop k="customdash_unit" v="MM"/>
           <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="bevel"/>
-          <prop k="line_color" v="107,107,106,255"/>
+          <prop k="line_color" v="57,57,56,255"/>
           <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="0.05"/>
+          <prop k="line_width" v="0.1"/>
           <prop k="line_width_unit" v="MM"/>
           <prop k="offset" v="0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
@@ -46,26 +45,7 @@
           <prop k="joinstyle" v="bevel"/>
           <prop k="line_color" v="107,107,106,255"/>
           <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="0.04"/>
-          <prop k="line_width_unit" v="MM"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="0,0"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="line" name="2">
-        <layer pass="0" class="SimpleLine" locked="0">
-          <prop k="capstyle" v="square"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="0,0"/>
-          <prop k="customdash_unit" v="MM"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="line_color" v="107,107,106,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="0.03"/>
+          <prop k="line_width" v="0.08"/>
           <prop k="line_width_unit" v="MM"/>
           <prop k="offset" v="0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
@@ -112,7 +92,7 @@
     <property key="labeling/fontLimitPixelSize" value="false"/>
     <property key="labeling/fontMaxPixelSize" value="10000"/>
     <property key="labeling/fontMinPixelSize" value="3"/>
-    <property key="labeling/fontSize" value="2.5"/>
+    <property key="labeling/fontSize" value="3"/>
     <property key="labeling/fontSizeInMapUnits" value="false"/>
     <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
     <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
@@ -210,9 +190,9 @@
     <property key="labeling/shapeTransparency" value="0"/>
     <property key="labeling/shapeType" value="0"/>
     <property key="labeling/textColorA" value="255"/>
-    <property key="labeling/textColorB" value="81"/>
-    <property key="labeling/textColorG" value="81"/>
-    <property key="labeling/textColorR" value="81"/>
+    <property key="labeling/textColorB" value="56"/>
+    <property key="labeling/textColorG" value="57"/>
+    <property key="labeling/textColorR" value="57"/>
     <property key="labeling/textTransp" value="0"/>
     <property key="labeling/upsidedownLabels" value="0"/>
     <property key="labeling/wrapChar" value=""/>
