@@ -47,20 +47,18 @@
         <rule scalemaxdenom="250000" filter=" &quot;place&quot;  =  'hamlet' " key="{82fe7847-b825-49db-8501-6c73e5846edc}" symbol="3" scalemindenom="500" label="hamlet"/>
       </rule>
       <rule filter=" ( &quot;other_tags&quot; is not null  ) or  (  &quot;highway&quot;  is not null )  " key="{24c4cc3d-9526-4715-abd8-4eb260fe8e59}" label="other_points">
-        <rule scalemaxdenom="250000" filter="other_tags like '%&quot;ford&quot;=>&quot;yes&quot;%' or  &quot;highway&quot;  =   'ford' " key="{3fedaad6-7e5c-48f2-8827-381baba82d3f}" symbol="4" scalemindenom="500" label="ford"/>
-        <rule scalemaxdenom="250000" filter="&quot;man_made&quot; = 'lighthouse'" key="{3e1f5595-06e2-409e-a844-255f726aa86b}" symbol="5" scalemindenom="500" label="lighthouse"/>
+        <rule scalemaxdenom="250000" filter="&quot;man_made&quot; = 'lighthouse'" key="{3e1f5595-06e2-409e-a844-255f726aa86b}" symbol="4" scalemindenom="500" label="lighthouse"/>
       </rule>
       <rule filter="&quot;other_tags&quot; is not null" key="{e273764a-78a5-4811-a1ac-1aaf1571a055}" label="other_tags">
-        <rule scalemaxdenom="50000" filter="other_tags like '%&quot;information&quot;=>&quot;office&quot;%' or other_tags like '%&quot;information&quot;=>&quot;terminal&quot;%' " key="{c9f058dc-6042-44fe-ab70-096ce15c118e}" symbol="6" scalemindenom="500" label="information_office"/>
-        <rule scalemaxdenom="50000" filter="other_tags like '%&quot;information&quot;=>&quot;guidepost&quot;%' or other_tags like '%&quot;information&quot;=>&quot;board&quot;%' or other_tags like '%&quot;information&quot;=>&quot;map&quot;%' or other_tags like '%&quot;tourism&quot;=>&quot;information&quot;%'" key="{db2fe4c3-743e-4174-93f8-62cafafb524a}" symbol="7" scalemindenom="500" label="information"/>
-        <rule scalemaxdenom="50000" filter="other_tags like '%&quot;tourism&quot;=>&quot;viewpoint&quot;%'" key="{f0caa692-cfc2-4482-b86c-488345815355}" symbol="8" scalemindenom="500" label="view_point"/>
-        <rule scalemaxdenom="50000" filter="other_tags like '%&quot;tourism&quot;=>&quot;hotel&quot;%' or other_tags like '%&quot;tourism&quot;=>&quot;motel&quot;%' or other_tags like '%&quot;tourism&quot;=>&quot;guest_house&quot;%' or other_tags like '%&quot;tourism&quot;=>&quot;hostel&quot;%' or other_tags like '%&quot;tourism&quot;=>&quot;chalet&quot;%'" key="{04724ada-bb85-4471-8a2a-6e51e1c74c27}" symbol="9" scalemindenom="500" label="accomodation"/>
-        <rule scalemaxdenom="50000" filter="other_tags like '%&quot;tourism&quot;=>&quot;alpine_hut&quot;%' or other_tags like '%&quot;tourism&quot;=>&quot;wilderness_hut&quot;%' or other_tags like '%&quot;amenity&quot;=>&quot;shelter&quot;%' or other_tags like '%&quot;shelter_type&quot;=>&quot;basic_hut&quot;%'" key="{9e927515-bb40-4605-8c1c-2622122334ed}" symbol="10" scalemindenom="500" label="hut"/>
-        <rule scalemaxdenom="50000" filter="other_tags like '%&quot;tourism&quot;=>&quot;lean_to&quot;%' or other_tags like '%&quot;shelter_type&quot;=>&quot;lean_to&quot;%'" key="{b93bda1d-e1d9-4bfe-8451-155e26fe3ef0}" symbol="11" scalemindenom="500" label="lean-to"/>
-        <rule scalemaxdenom="50000" filter="other_tags like '%&quot;tourism&quot;=>&quot;camp_site&quot;%' or other_tags like '%&quot;tourism&quot;=>&quot;caravan_site&quot;%'" key="{b4ed4123-ad3b-4ed2-b647-40ff33943385}" symbol="12" scalemindenom="500" label="camp"/>
-        <rule scalemaxdenom="250000" filter="other_tags like '%&quot;natural&quot;=>&quot;peak&quot;%' " key="{b663c8c9-cff9-4794-ba7d-42b35d7d379d}" symbol="13" scalemindenom="500" label="peaks"/>
-        <rule scalemaxdenom="250000" filter="other_tags like '%&quot;mountain_pass&quot;=>&quot;yes&quot;%' " key="{4f3dd85f-18ae-47f1-a4af-8540a4461ab5}" symbol="14" scalemindenom="500" label="mountain_pass"/>
-        <rule scalemaxdenom="250000" filter="other_tags like '%&quot;aeroway&quot;=>&quot;airport&quot;%' or other_tags like '%&quot;aeroway&quot;=>&quot;helipad&quot;%' or other_tags like '%&quot;aeroway&quot;=>&quot;aerodrome&quot;%'" key="{48763434-1339-439a-9a6a-6f89d0f03455}" symbol="15" scalemindenom="500" label="aeroway"/>
+        <rule scalemaxdenom="50000" filter="other_tags like '%&quot;information&quot;=>&quot;office&quot;%' or other_tags like '%&quot;information&quot;=>&quot;terminal&quot;%' " key="{c9f058dc-6042-44fe-ab70-096ce15c118e}" symbol="5" scalemindenom="500" label="information_office"/>
+        <rule scalemaxdenom="50000" filter="other_tags like '%&quot;information&quot;=>&quot;guidepost&quot;%' or other_tags like '%&quot;information&quot;=>&quot;board&quot;%' or other_tags like '%&quot;information&quot;=>&quot;map&quot;%' or other_tags like '%&quot;tourism&quot;=>&quot;information&quot;%'" key="{db2fe4c3-743e-4174-93f8-62cafafb524a}" symbol="6" scalemindenom="500" label="information"/>
+        <rule scalemaxdenom="50000" filter="other_tags like '%&quot;tourism&quot;=>&quot;viewpoint&quot;%'" key="{f0caa692-cfc2-4482-b86c-488345815355}" symbol="7" scalemindenom="500" label="view_point"/>
+        <rule scalemaxdenom="50000" filter="other_tags like '%&quot;tourism&quot;=>&quot;hotel&quot;%' or other_tags like '%&quot;tourism&quot;=>&quot;motel&quot;%' or other_tags like '%&quot;tourism&quot;=>&quot;guest_house&quot;%' or other_tags like '%&quot;tourism&quot;=>&quot;hostel&quot;%' or other_tags like '%&quot;tourism&quot;=>&quot;chalet&quot;%'" key="{04724ada-bb85-4471-8a2a-6e51e1c74c27}" symbol="8" scalemindenom="500" label="accomodation"/>
+        <rule scalemaxdenom="50000" filter="other_tags like '%&quot;tourism&quot;=>&quot;alpine_hut&quot;%' or other_tags like '%&quot;tourism&quot;=>&quot;wilderness_hut&quot;%' or other_tags like '%&quot;amenity&quot;=>&quot;shelter&quot;%' or other_tags like '%&quot;shelter_type&quot;=>&quot;basic_hut&quot;%'" key="{9e927515-bb40-4605-8c1c-2622122334ed}" symbol="9" scalemindenom="500" label="hut"/>
+        <rule scalemaxdenom="50000" filter="other_tags like '%&quot;tourism&quot;=>&quot;lean_to&quot;%' or other_tags like '%&quot;shelter_type&quot;=>&quot;lean_to&quot;%'" key="{b93bda1d-e1d9-4bfe-8451-155e26fe3ef0}" symbol="10" scalemindenom="500" label="lean-to"/>
+        <rule scalemaxdenom="50000" filter="other_tags like '%&quot;tourism&quot;=>&quot;camp_site&quot;%' or other_tags like '%&quot;tourism&quot;=>&quot;caravan_site&quot;%'" key="{b4ed4123-ad3b-4ed2-b647-40ff33943385}" symbol="11" scalemindenom="500" label="camp"/>
+        <rule scalemaxdenom="250000" filter="other_tags like '%&quot;natural&quot;=>&quot;peak&quot;%' " key="{b663c8c9-cff9-4794-ba7d-42b35d7d379d}" symbol="12" scalemindenom="500" label="peaks"/>
+        <rule scalemaxdenom="250000" filter="other_tags like '%&quot;aeroway&quot;=>&quot;airport&quot;%' or other_tags like '%&quot;aeroway&quot;=>&quot;helipad&quot;%' or other_tags like '%&quot;aeroway&quot;=>&quot;aerodrome&quot;%'" key="{48763434-1339-439a-9a6a-6f89d0f03455}" symbol="13" scalemindenom="500" label="aeroway"/>
       </rule>
     </rules>
     <symbols>
@@ -108,27 +106,6 @@
       </symbol>
       <symbol alpha="1" type="marker" name="10">
         <layer pass="0" class="SimpleMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="0,0,0,0"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="rectangle"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="107,107,106,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0.2"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="11">
-        <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="50"/>
           <prop k="color" v="0,0,0,0"/>
           <prop k="horizontal_anchor_point" v="1"/>
@@ -167,7 +144,7 @@
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="marker" name="12">
+      <symbol alpha="1" type="marker" name="11">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="270"/>
           <prop k="color" v="0,0,0,0"/>
@@ -188,7 +165,7 @@
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="marker" name="13">
+      <symbol alpha="1" type="marker" name="12">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="107,107,106,255"/>
@@ -209,47 +186,7 @@
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="marker" name="14">
-        <layer pass="0" class="SimpleMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="0,0,0,0"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="arrowhead"/>
-          <prop k="offset" v="0.2,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="47,76,190,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="1.6"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-        <layer pass="0" class="SimpleMarker" locked="0">
-          <prop k="angle" v="180"/>
-          <prop k="color" v="0,0,0,0"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="arrowhead"/>
-          <prop k="offset" v="0.2,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="47,76,190,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="1.6"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="15">
+      <symbol alpha="1" type="marker" name="13">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="#6b6b6a"/>
@@ -313,46 +250,6 @@
       </symbol>
       <symbol alpha="1" type="marker" name="4">
         <layer pass="0" class="SimpleMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="0,0,0,0"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="arrowhead"/>
-          <prop k="offset" v="0.2,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="227,26,28,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="1.6"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-        <layer pass="0" class="SimpleMarker" locked="0">
-          <prop k="angle" v="180"/>
-          <prop k="color" v="0,0,0,0"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="arrowhead"/>
-          <prop k="offset" v="0.2,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="227,26,28,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="1.6"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="5">
-        <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="180"/>
           <prop k="color" v="0,0,0,0"/>
           <prop k="horizontal_anchor_point" v="1"/>
@@ -391,7 +288,7 @@
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="marker" name="6">
+      <symbol alpha="1" type="marker" name="5">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="107,107,106,255"/>
@@ -431,7 +328,7 @@
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="marker" name="7">
+      <symbol alpha="1" type="marker" name="6">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="90"/>
           <prop k="color" v="255,255,255,255"/>
@@ -471,7 +368,7 @@
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="marker" name="8">
+      <symbol alpha="1" type="marker" name="7">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="107,107,106,255"/>
@@ -511,7 +408,7 @@
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="marker" name="9">
+      <symbol alpha="1" type="marker" name="8">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,0"/>
@@ -527,6 +424,27 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="area"/>
           <prop k="size" v="3"/>
+          <prop k="size_map_unit_scale" v="0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" type="marker" name="9">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="0,0,0,0"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="rectangle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="107,107,106,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0.2"/>
+          <prop k="outline_width_map_unit_scale" v="0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="area"/>
+          <prop k="size" v="2"/>
           <prop k="size_map_unit_scale" v="0,0"/>
           <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
