@@ -65,13 +65,13 @@
       <symbol alpha="1" type="marker" name="0">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="183,183,182,255"/>
+          <prop k="color" v="38,38,37,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="rectangle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="88,88,88,255"/>
+          <prop k="outline_color" v="38,38,37,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -86,13 +86,13 @@
       <symbol alpha="1" type="marker" name="1">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="183,183,182,255"/>
+          <prop k="color" v="38,38,37,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="rectangle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="88,88,88,255"/>
+          <prop k="outline_color" v="38,38,37,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -113,7 +113,7 @@
           <prop k="offset" v="0,0.6"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="107,107,106,255"/>
+          <prop k="outline_color" v="38,38,37,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -132,7 +132,7 @@
           <prop k="offset" v="0.6,0.4"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="107,107,106,255"/>
+          <prop k="outline_color" v="38,38,37,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -153,7 +153,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="107,107,106,255"/>
+          <prop k="outline_color" v="38,38,37,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -168,7 +168,7 @@
       <symbol alpha="1" type="marker" name="12">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="107,107,106,255"/>
+          <prop k="color" v="38,38,37,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="triangle"/>
           <prop k="offset" v="0,0"/>
@@ -189,13 +189,13 @@
       <symbol alpha="1" type="marker" name="13">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="#6b6b6a"/>
+          <prop k="color" v="#262625"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="gpsicons/plane.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="#6b6b6a"/>
+          <prop k="outline_color" v="#262625"/>
           <prop k="outline_width" v="1"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
           <prop k="outline_width_unit" v="MM"/>
@@ -209,13 +209,13 @@
       <symbol alpha="1" type="marker" name="2">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="183,183,182,255"/>
+          <prop k="color" v="38,38,37,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="rectangle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="88,88,88,255"/>
+          <prop k="outline_color" v="38,38,37,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -230,13 +230,13 @@
       <symbol alpha="1" type="marker" name="3">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="183,183,182,255"/>
+          <prop k="color" v="38,38,37,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="rectangle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="88,88,88,255"/>
+          <prop k="outline_color" v="38,38,37,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -254,7 +254,7 @@
           <prop k="color" v="0,0,0,0"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="triangle"/>
-          <prop k="offset" v="0,-0.8"/>
+          <prop k="offset" v="0,-0.6"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,255"/>
@@ -263,7 +263,7 @@
           <prop k="outline_width_map_unit_scale" v="0,0"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="area"/>
-          <prop k="size" v="1.4"/>
+          <prop k="size" v="1.2"/>
           <prop k="size_map_unit_scale" v="0,0"/>
           <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -273,7 +273,7 @@
           <prop k="color" v="255,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="triangle"/>
-          <prop k="offset" v="0,-0.8"/>
+          <prop k="offset" v="0,-0.6"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,255"/>
@@ -282,7 +282,7 @@
           <prop k="outline_width_map_unit_scale" v="0,0"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="area"/>
-          <prop k="size" v="1.4"/>
+          <prop k="size" v="1.2"/>
           <prop k="size_map_unit_scale" v="0,0"/>
           <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -291,13 +291,13 @@
       <symbol alpha="1" type="marker" name="5">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="107,107,106,255"/>
+          <prop k="color" v="38,38,37,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="line"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="107,107,106,255"/>
+          <prop k="outline_color" v="38,38,37,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -310,13 +310,13 @@
         </layer>
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="107,107,106,255"/>
+          <prop k="color" v="38,38,37,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,-1.6"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="107,107,106,255"/>
+          <prop k="outline_color" v="38,38,37,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -337,7 +337,7 @@
           <prop k="offset" v="-1.2,-0.2"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="107,107,106,255"/>
+          <prop k="outline_color" v="38,38,37,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -350,13 +350,13 @@
         </layer>
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="107,107,106,255"/>
+          <prop k="color" v="38,38,37,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="line"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="107,107,106,255"/>
+          <prop k="outline_color" v="38,38,37,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -371,13 +371,13 @@
       <symbol alpha="1" type="marker" name="7">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="107,107,106,255"/>
+          <prop k="color" v="38,38,37,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="cross2"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="107,107,106,255"/>
+          <prop k="outline_color" v="38,38,37,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -390,13 +390,13 @@
         </layer>
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="107,107,106,255"/>
+          <prop k="color" v="38,38,37,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="cross"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="107,107,106,255"/>
+          <prop k="outline_color" v="38,38,37,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
@@ -417,13 +417,13 @@
           <prop k="offset" v="0,-5.55112e-17"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="107,107,106,255"/>
+          <prop k="outline_color" v="38,38,37,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0.2"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="area"/>
-          <prop k="size" v="3"/>
+          <prop k="size" v="2.5"/>
           <prop k="size_map_unit_scale" v="0,0"/>
           <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -438,7 +438,7 @@
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="107,107,106,255"/>
+          <prop k="outline_color" v="38,38,37,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0.2"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
