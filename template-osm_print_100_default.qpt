@@ -47,7 +47,7 @@
     <Layer>Output_layer20141202202736943</Layer>
    </LayerSet>
    <Grid/>
-   <ComposerMapGrid leftAnnotationDirection="1" annotationFont="Cantarell,8,-1,5,50,0,0,0,0,0" gridFramePenThickness="0.29999999999999999" showAnnotation="1" bottomAnnotationDirection="0" bottomAnnotationPosition="1" name="Grid 1" gridStyle="0" intervalX="0.10000000000000001" intervalY="0.10000000000000001" gridFrameStyle="0" rightAnnotationPosition="1" topAnnotationDirection="0" leftAnnotationPosition="1" blendMode="0" show="1" frameFillColor1="255,255,255,255" gridFrameWidth="2" frameFillColor2="0,0,0,255" annotationFontColor="0,0,0,255" gridFrameSideFlags="15" gridFramePenColor="0,0,0,255" offsetX="0" annotationPrecision="1" offsetY="0" frameAnnotationDistance="1" unit="0" uuid="{48aa49a1-ee19-471b-909f-4d8283e9b697}" topAnnotationPosition="1" rightAnnotationDirection="1" annotationFormat="3" crossLength="3">
+   <ComposerMapGrid leftAnnotationDirection="1" annotationFont="Cantarell,6,-1,5,50,0,0,0,0,0" gridFramePenThickness="0.29999999999999999" showAnnotation="1" bottomAnnotationDirection="0" bottomAnnotationPosition="1" name="Grid 1" gridStyle="0" intervalX="0.10000000000000001" intervalY="0.10000000000000001" gridFrameStyle="0" rightAnnotationPosition="1" topAnnotationDirection="0" leftAnnotationPosition="1" blendMode="0" show="1" frameFillColor1="255,255,255,255" gridFrameWidth="2" frameFillColor2="0,0,0,255" annotationFontColor="0,0,0,255" gridFrameSideFlags="15" gridFramePenColor="0,0,0,255" offsetX="0" annotationPrecision="1" offsetY="0" frameAnnotationDistance="1" unit="0" uuid="{48aa49a1-ee19-471b-909f-4d8283e9b697}" topAnnotationPosition="1" rightAnnotationDirection="1" annotationFormat="3" crossLength="3">
     <lineStyle>
      <symbol alpha="1" type="line" name="">
       <layer pass="0" class="SimpleLine" locked="0">
@@ -104,13 +104,13 @@
     </spatialrefsys>
    </ComposerMapGrid>
    <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-   <ComposerItem pagey="5" page="2" id="" lastValidViewScaleFactor="1.88976" positionMode="0" positionLock="true" x="5" y="435" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="287" outlineWidth="0.3" excludeFromExports="0" uuid="{510497c6-a1b1-4466-aa68-9c6be79c7f97}" height="403" itemRotation="0" frame="false" pagex="5">
+   <ComposerItem pagey="5" page="2" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="true" x="5" y="435" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="287" outlineWidth="0.3" excludeFromExports="0" uuid="{510497c6-a1b1-4466-aa68-9c6be79c7f97}" height="403" itemRotation="0" frame="false" pagex="5">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
   </ComposerMap>
   <ComposerMap mapRotation="0" keepLayerSet="true" id="0" previewMode="Cache" drawCanvasItems="true">
-   <Extent ymin="7622894.19889862928539515" xmin="488170.81740027153864503" ymax="7663194.19893973600119352" xmax="516870.81742954556830227"/>
+   <Extent ymin="7622894.19889862928539515" xmin="488170.81740027153864503" ymax="7663194.19893973506987095" xmax="516870.81742954556830227"/>
    <LayerSet>
     <Layer>points20141201234741967</Layer>
     <Layer>lines20141201234656886</Layer>
@@ -121,7 +121,7 @@
     <Layer>Output_layer20141202202736943</Layer>
    </LayerSet>
    <Grid/>
-   <ComposerMapGrid leftAnnotationDirection="1" annotationFont="Cantarell,8,-1,5,50,0,0,0,0,0" gridFramePenThickness="0.29999999999999999" showAnnotation="1" bottomAnnotationDirection="0" bottomAnnotationPosition="1" name="Grid 1" gridStyle="0" intervalX="0.10000000000000001" intervalY="0.10000000000000001" gridFrameStyle="0" rightAnnotationPosition="1" topAnnotationDirection="0" leftAnnotationPosition="1" blendMode="0" show="1" frameFillColor1="255,255,255,255" gridFrameWidth="2" frameFillColor2="0,0,0,255" annotationFontColor="0,0,0,255" gridFrameSideFlags="15" gridFramePenColor="0,0,0,255" offsetX="0" annotationPrecision="1" offsetY="0" frameAnnotationDistance="1" unit="0" uuid="{2b9b8266-fd97-4bb9-8719-3221328693f3}" topAnnotationPosition="1" rightAnnotationDirection="1" annotationFormat="3" crossLength="3">
+   <ComposerMapGrid leftAnnotationDirection="1" annotationFont="Cantarell,6,-1,5,50,0,0,0,0,0" gridFramePenThickness="0.29999999999999999" showAnnotation="1" bottomAnnotationDirection="0" bottomAnnotationPosition="1" name="Grid 1" gridStyle="0" intervalX="0.10000000000000001" intervalY="0.10000000000000001" gridFrameStyle="0" rightAnnotationPosition="1" topAnnotationDirection="0" leftAnnotationPosition="1" blendMode="0" show="1" frameFillColor1="255,255,255,255" gridFrameWidth="2" frameFillColor2="0,0,0,255" annotationFontColor="0,0,0,255" gridFrameSideFlags="15" gridFramePenColor="0,0,0,255" offsetX="0" annotationPrecision="1" offsetY="0" frameAnnotationDistance="1" unit="0" uuid="{2b9b8266-fd97-4bb9-8719-3221328693f3}" topAnnotationPosition="1" rightAnnotationDirection="1" annotationFormat="3" crossLength="3">
     <lineStyle>
      <symbol alpha="1" type="line" name="">
       <layer pass="0" class="SimpleLine" locked="0">
@@ -178,7 +178,7 @@
     </spatialrefsys>
    </ComposerMapGrid>
    <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-   <ComposerItem pagey="5" page="1" id="" lastValidViewScaleFactor="1.88976" positionMode="0" positionLock="true" x="5" y="5" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="287" outlineWidth="0.3" excludeFromExports="0" uuid="{d8a25c52-f8d9-4e02-acb9-c213480183a5}" height="403" itemRotation="0" frame="false" pagex="5">
+   <ComposerItem pagey="5" page="1" id="" lastValidViewScaleFactor="3.77953" positionMode="0" positionLock="true" x="5" y="5" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="287" outlineWidth="0.3" excludeFromExports="0" uuid="{d8a25c52-f8d9-4e02-acb9-c213480183a5}" height="403" itemRotation="0" frame="false" pagex="5">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
    </ComposerItem>
