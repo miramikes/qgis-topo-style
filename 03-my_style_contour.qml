@@ -190,9 +190,9 @@
     <property key="labeling/shapeTransparency" value="0"/>
     <property key="labeling/shapeType" value="0"/>
     <property key="labeling/textColorA" value="255"/>
-    <property key="labeling/textColorB" value="56"/>
-    <property key="labeling/textColorG" value="57"/>
-    <property key="labeling/textColorR" value="57"/>
+    <property key="labeling/textColorB" value="25"/>
+    <property key="labeling/textColorG" value="26"/>
+    <property key="labeling/textColorR" value="26"/>
     <property key="labeling/textTransp" value="0"/>
     <property key="labeling/upsidedownLabels" value="0"/>
     <property key="labeling/wrapChar" value=""/>
