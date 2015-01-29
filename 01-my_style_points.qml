@@ -295,7 +295,7 @@
       <symbol alpha="1" type="marker" name="4">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="180"/>
-          <prop k="color" v="0,0,0,0"/>
+          <prop k="color" v="255,255,255,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="triangle"/>
           <prop k="offset" v="0,-0.6"/>
