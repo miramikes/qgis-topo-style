@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.6.1-Brighton" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="5" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.6.1-Brighton" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="5" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
     <edittype widgetv2type="TextEdit" name="OGC_FID">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
@@ -40,26 +40,26 @@
       </rule>
       <rule filter="&quot;highway&quot; is not null" key="{625c33c2-760f-42b7-bad1-ed172e8a77a2}" label="highways">
         <rule key="{44614592-2643-4b02-9458-d1bb19f7314c}" label="roads">
-          <rule filter="&quot;highway&quot;  =  'motorway' " key="{9a976a3f-7973-4e41-86f6-8ba215e3c8f8}" symbol="2" label="motorway"/>
-          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'motorway_link' " key="{e93ff84f-6faf-4046-9340-e0cf62a560c7}" symbol="3" scalemindenom="500" label="motorway_link"/>
-          <rule filter="&quot;highway&quot;  =  'trunk' " key="{1ed1f3dd-6247-49cd-a2c3-66d76a640689}" symbol="4" label="trunk"/>
-          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =   'trunk_link' " key="{07d2be44-7fb7-430a-baaf-3e11b72f421b}" symbol="5" scalemindenom="500" label="trunk_link"/>
-          <rule scalemaxdenom="500000" filter="&quot;highway&quot;  =   'primary' " key="{59f49bd9-0bb4-4a39-a202-35abdd0addf8}" symbol="6" scalemindenom="500" label="primary"/>
-          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'primary_link' " key="{c23c40a6-8b15-4242-862b-1bf9b30302dc}" symbol="7" scalemindenom="500" label="primary_link"/>
-          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  =  'secondary' " key="{b32e8aed-19fe-457a-9d1c-ba0a0d3cbf1a}" symbol="8" scalemindenom="500" label="secondary"/>
-          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'secondary_link' " key="{3890e7b4-27c7-4ca2-bcf2-20d3079de397}" symbol="9" scalemindenom="500" label="secondary_link"/>
-          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  =  'tertiary' " key="{da7c2a41-2b82-4874-9a76-0a4aa8763a66}" symbol="10" scalemindenom="500" label="terciary"/>
-          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'tertiary_link' " key="{8d531548-fe4a-4665-a028-a4aebc8e7806}" symbol="11" scalemindenom="500" label="terciary_link"/>
+          <rule filter="&quot;highway&quot;  =  'motorway' " key="{f3621347-f811-429e-84cf-c99087a4cc72}" symbol="2" label="motorway"/>
+          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'motorway_link' " key="{f6ee717b-cd01-4796-be2e-2a837ac3654a}" symbol="3" scalemindenom="500" label="motorway_link"/>
+          <rule filter="&quot;highway&quot;  =  'trunk' " key="{6b17472f-f952-46d7-a300-fbb5b6638b40}" symbol="4" label="trunk"/>
+          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =   'trunk_link' " key="{fccdba58-33af-4905-9d58-e64d1ad3bf8f}" symbol="5" scalemindenom="500" label="trunk_link"/>
+          <rule scalemaxdenom="500000" filter="&quot;highway&quot;  =   'primary' " key="{78f5bd18-3956-4304-b64c-3300e914390d}" symbol="6" scalemindenom="500" label="primary"/>
+          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'primary_link' " key="{a56301db-a722-4838-b3df-56c656baa102}" symbol="7" scalemindenom="500" label="primary_link"/>
+          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  =  'secondary' " key="{da9469e1-4ba5-4f48-b29c-8778a0a071ed}" symbol="8" scalemindenom="500" label="secondary"/>
+          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'secondary_link' " key="{035ead4e-bdbd-4a3c-af9b-12b20852f523}" symbol="9" scalemindenom="500" label="secondary_link"/>
+          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  =  'tertiary' " key="{66902b94-d6d1-4aa0-b84b-e300d82637f2}" symbol="10" scalemindenom="500" label="terciary"/>
+          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'tertiary_link' " key="{cbe862d4-a4b0-44fc-aa72-9ba5bc0b063f}" symbol="11" scalemindenom="500" label="terciary_link"/>
         </rule>
         <rule key="{22302246-ffd9-4a3e-878c-d17ef66864d1}" label="paths">
-          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  in  ('track' ,'track;path','unclassified;track','unknown','yes','unsurfaced','unclassified')" key="{d716f1c5-5b38-47cf-be95-3ce2c38db1c0}" symbol="12" scalemindenom="500" label="track"/>
-          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  in  ('almost_path','bridleway','bridleway;track','path' ,'tiny-path','tiny-path-maybe','tinypath','track;path','via_ferrata')" key="{94b07d9f-4c1d-4ef2-a795-8c2ff3f2106d}" symbol="13" scalemindenom="500" label="path"/>
-          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  =  'footway' " key="{d0824928-110f-48a8-9393-3d80e04a73b3}" symbol="14" scalemindenom="500" label="footway"/>
-          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  =  'pedestrian' " key="{196ff808-57ea-45f1-90b7-6cf2ebe46af1}" symbol="15" scalemindenom="500" label="pedestrian"/>
-          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =   'cycleway' " key="{9d421c19-9683-4fcb-b974-fe5209da9102}" symbol="16" scalemindenom="500" label="cycleway"/>
-          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  in  ('residential','living_street')" key="{0a804c2c-2694-4f3c-ad0f-7700411c2ae4}" symbol="17" scalemindenom="500" label="residental"/>
-          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  =  'services' " key="{d0868042-5053-48cc-a82f-d20f707fffe7}" symbol="18" scalemindenom="500" label="services"/>
-          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  in  ('stairs','steps' )" key="{96dee382-48f8-46b8-8952-77ec22149132}" symbol="19" scalemindenom="500" label="stairs"/>
+          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  in  ('track' ,'track;path','unclassified;track','unknown','yes','unsurfaced','unclassified')" key="{32fc59ad-3104-43c5-b3da-e50ef618a9e7}" symbol="12" scalemindenom="500" label="track"/>
+          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  in  ('almost_path','bridleway','bridleway;track','path' ,'tiny-path','tiny-path-maybe','tinypath','track;path','via_ferrata')" key="{eaa15484-43ff-4fd1-86f2-ffe433cc01e1}" symbol="13" scalemindenom="500" label="path"/>
+          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  =  'footway' " key="{9e063e11-18b8-409b-b5f8-b63572358448}" symbol="14" scalemindenom="500" label="footway"/>
+          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  =  'pedestrian' " key="{18afb83c-ec08-4faf-9d4c-1a62523e6899}" symbol="15" scalemindenom="500" label="pedestrian"/>
+          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =   'cycleway' " key="{316cb104-7efd-4324-a2c8-28683a6cb3ad}" symbol="16" scalemindenom="500" label="cycleway"/>
+          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  in  ('residential','living_street')" key="{b79505a6-3802-4399-856e-d9ddd9083aed}" symbol="17" scalemindenom="500" label="residental"/>
+          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  =  'services' " key="{84b376ae-2213-4f63-b934-7914fa400aa2}" symbol="18" scalemindenom="500" label="services"/>
+          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  in  ('stairs','steps' )" key="{8e680c3a-76d0-4b16-9497-bcdea0780300}" symbol="19" scalemindenom="500" label="stairs"/>
         </rule>
       </rule>
       <rule filter="&quot;other_tags&quot; is not null" key="{e0f8c1c5-d1c5-44c1-8298-f71c7b686420}" label="railways">
@@ -76,7 +76,7 @@
         <rule scalemaxdenom="250000" filter="&quot;waterway&quot;  =  'ditch' " key="{d335a38c-3344-4732-997c-a07449ccc6b1}" symbol="28" scalemindenom="500" label="ditch"/>
         <rule scalemaxdenom="250000" filter="&quot;waterway&quot;  =  'drain' " key="{7c65684e-1060-4eb5-be0a-009d290a4587}" symbol="29" scalemindenom="500" label="drain"/>
         <rule scalemaxdenom="250000" filter="&quot;waterway&quot;  =  'dam' " key="{172a3bf3-1652-4815-9d20-0cf294fbddb0}" symbol="30" scalemindenom="500" label="dam"/>
-        <rule scalemaxdenom="250000" filter="&quot;waterway&quot;  =  'fixme' " key="{268bdc4d-86cd-4dfb-a380-8877df9e82af}" symbol="31" scalemindenom="50000" label="fixme"/>
+        <rule scalemaxdenom="250000" filter="&quot;waterway&quot;  =  'fixme' " key="{268bdc4d-86cd-4dfb-a380-8877df9e82af}" symbol="31" scalemindenom="500" label="fixme"/>
         <rule scalemaxdenom="250000" filter="&quot;waterway&quot;  =  'weir' or &quot;waterway&quot;  =   'waterfall' " key="{22a3a8b8-d8a5-41e8-a605-6ec7d82a2217}" symbol="32" scalemindenom="500" label="weir"/>
         <rule scalemaxdenom="250000" filter="&quot;waterway&quot;  =  'wadi' " key="{390b808d-21e6-4148-9654-58b3f8404267}" symbol="33" scalemindenom="500" label="wadi"/>
       </rule>
@@ -878,19 +878,19 @@
       <symbol alpha="1" type="line" name="33">
         <layer pass="0" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
-          <prop k="customdash" v="5;2"/>
+          <prop k="customdash" v="3;1"/>
           <prop k="customdash_map_unit_scale" v="0,0"/>
           <prop k="customdash_unit" v="MM"/>
           <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="line_color" v="152,196,239,255"/>
-          <prop k="line_style" v="solid"/>
+          <prop k="line_style" v="dash"/>
           <prop k="line_width" v="0.4"/>
           <prop k="line_width_unit" v="MM"/>
           <prop k="offset" v="0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="use_custom_dash" v="0"/>
+          <prop k="use_custom_dash" v="1"/>
           <prop k="width_map_unit_scale" v="0,0"/>
         </layer>
       </symbol>
