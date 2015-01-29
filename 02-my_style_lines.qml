@@ -40,26 +40,26 @@
       </rule>
       <rule filter="&quot;highway&quot; is not null" key="{625c33c2-760f-42b7-bad1-ed172e8a77a2}" label="highways">
         <rule key="{44614592-2643-4b02-9458-d1bb19f7314c}" label="roads">
-          <rule filter="&quot;highway&quot;  =  'motorway' " key="{14450d28-bf3f-47de-b4bd-4c891bbaf1a8}" symbol="2" label="motorway"/>
-          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'motorway_link' " key="{7126a15a-9bc6-4cdc-a39b-d0740f47e581}" symbol="3" scalemindenom="500" label="motorway_link"/>
-          <rule filter="&quot;highway&quot;  =  'trunk' " key="{d82a2fa1-81a6-41c4-9b2e-67146a5f998e}" symbol="4" label="trunk"/>
-          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =   'trunk_link' " key="{3e7e7b17-f7cf-4517-bd08-985209b97583}" symbol="5" scalemindenom="500" label="trunk_link"/>
-          <rule scalemaxdenom="500000" filter="&quot;highway&quot;  =   'primary' " key="{bdca6ef5-86c9-4b25-82f2-78db8d3b5dfe}" symbol="6" scalemindenom="500" label="primary"/>
-          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'primary_link' " key="{ae4e1b1b-9382-4a4e-9ab4-583c216f7fdf}" symbol="7" scalemindenom="500" label="primary_link"/>
-          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  =  'secondary' " key="{51b44c8c-bc16-4fdf-ba1c-a4aab5f2f69a}" symbol="8" scalemindenom="500" label="secondary"/>
-          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'secondary_link' " key="{69349ad3-468a-46fd-9666-d177c37d5570}" symbol="9" scalemindenom="500" label="secondary_link"/>
-          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  =  'tertiary' " key="{53e45a15-0694-4372-be62-537e5cd8d583}" symbol="10" scalemindenom="500" label="terciary"/>
-          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'tertiary_link' " key="{1c175b7b-ac38-4302-8e53-fcd0b98163ef}" symbol="11" scalemindenom="500" label="terciary_link"/>
+          <rule filter="&quot;highway&quot;  =  'motorway' " key="{4aed7283-5337-4c0c-84d7-19e5ff77b99f}" symbol="2" label="motorway"/>
+          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'motorway_link' " key="{b38d7db5-bb60-4c57-9627-8723ee9181cc}" symbol="3" scalemindenom="500" label="motorway_link"/>
+          <rule filter="&quot;highway&quot;  =  'trunk' " key="{942761db-0b6c-4644-a507-25c31a7982f4}" symbol="4" label="trunk"/>
+          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =   'trunk_link' " key="{b4a9676e-33ea-472f-ba46-5ded92e11c23}" symbol="5" scalemindenom="500" label="trunk_link"/>
+          <rule scalemaxdenom="500000" filter="&quot;highway&quot;  =   'primary' " key="{92e3ba43-a274-477d-892a-0526ea320f3f}" symbol="6" scalemindenom="500" label="primary"/>
+          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'primary_link' " key="{647f4071-c1eb-4a51-8429-27f20314e2b5}" symbol="7" scalemindenom="500" label="primary_link"/>
+          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  =  'secondary' " key="{8be431fa-94cd-47fe-a17c-875db88df45e}" symbol="8" scalemindenom="500" label="secondary"/>
+          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'secondary_link' " key="{a10c58cd-59c5-48b5-a023-585d40873410}" symbol="9" scalemindenom="500" label="secondary_link"/>
+          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  =  'tertiary' " key="{abfdd91a-0981-4ff4-9ac0-26a0364d67f5}" symbol="10" scalemindenom="500" label="terciary"/>
+          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'tertiary_link' " key="{53ff389c-3a41-4a9b-9ca9-3eb42f96f44d}" symbol="11" scalemindenom="500" label="terciary_link"/>
         </rule>
         <rule key="{22302246-ffd9-4a3e-878c-d17ef66864d1}" label="paths">
-          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  in  ('track' ,'track;path','unclassified;track','unknown','yes','unsurfaced','unclassified')" key="{54bd6a15-6559-43c9-9eed-0a54fe8b760d}" symbol="12" scalemindenom="500" label="track"/>
-          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  in  ('almost_path','bridleway','bridleway;track','path' ,'tiny-path','tiny-path-maybe','tinypath','track;path','via_ferrata')" key="{492d6eb4-bc52-4546-886e-650ca8f2f17a}" symbol="13" scalemindenom="500" label="path"/>
-          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  =  'footway' " key="{052b91bb-317f-42cb-bc5e-1feff826cbbc}" symbol="14" scalemindenom="500" label="footway"/>
-          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  =  'pedestrian' " key="{c49b5f0f-c872-4ec0-b874-df0e589c1f67}" symbol="15" scalemindenom="500" label="pedestrian"/>
-          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =   'cycleway' " key="{ac76e9c6-6b30-4ee3-ad33-f754f0af7249}" symbol="16" scalemindenom="500" label="cycleway"/>
-          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  in  ('residential','living_street')" key="{5dafd325-556e-4d42-9349-3e78d7c8250d}" symbol="17" scalemindenom="500" label="residental"/>
-          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  =  'services' " key="{99d71604-6f8c-42c3-8ce6-53ef96ed74eb}" symbol="18" scalemindenom="500" label="services"/>
-          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  in  ('stairs','steps' )" key="{e0769a1c-af5b-491e-84f4-67199677a200}" symbol="19" scalemindenom="500" label="stairs"/>
+          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  in  ('track' ,'track;path','unclassified;track','unknown','yes','unsurfaced','unclassified')" key="{3cda226d-3b0b-4b7f-a4b5-ba4efcafc471}" symbol="12" scalemindenom="500" label="track"/>
+          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  in  ('almost_path','bridleway','bridleway;track','path' ,'tiny-path','tiny-path-maybe','tinypath','track;path','via_ferrata')" key="{1c018aaf-6e8e-439d-b14d-5a9fb4e32df5}" symbol="13" scalemindenom="500" label="path"/>
+          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  =  'footway' " key="{060f0b28-3bba-4aa1-8ab4-5e97f9873ef2}" symbol="14" scalemindenom="500" label="footway"/>
+          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  =  'pedestrian' " key="{b4919b1d-dfdf-4e43-9ea6-966b296be3a1}" symbol="15" scalemindenom="500" label="pedestrian"/>
+          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =   'cycleway' " key="{8a24ecb4-d943-4c21-9971-84fa6603d6f5}" symbol="16" scalemindenom="500" label="cycleway"/>
+          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  in  ('residential','living_street')" key="{12a0b1a3-a873-4ec5-a97b-bcb9e5a9dae6}" symbol="17" scalemindenom="500" label="residental"/>
+          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  =  'services' " key="{2a2b85f7-4732-4bdf-b199-e96811d33cf5}" symbol="18" scalemindenom="500" label="services"/>
+          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  in  ('stairs','steps' )" key="{7a6fd9a3-d6d7-4dc8-8f05-157dcda375d9}" symbol="19" scalemindenom="500" label="stairs"/>
         </rule>
       </rule>
       <rule filter="&quot;other_tags&quot; is not null" key="{e0f8c1c5-d1c5-44c1-8298-f71c7b686420}" label="railways">
@@ -176,7 +176,7 @@
           <prop k="joinstyle" v="bevel"/>
           <prop k="line_color" v="147,106,17,255"/>
           <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="0.2"/>
+          <prop k="line_width" v="0.25"/>
           <prop k="line_width_unit" v="MM"/>
           <prop k="offset" v="0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
@@ -195,7 +195,7 @@
           <prop k="joinstyle" v="bevel"/>
           <prop k="line_color" v="0,0,0,255"/>
           <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="0.15"/>
+          <prop k="line_width" v="0.18"/>
           <prop k="line_width_unit" v="MM"/>
           <prop k="offset" v="0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
@@ -680,7 +680,7 @@
           <prop k="joinstyle" v="round"/>
           <prop k="line_color" v="152,196,239,255"/>
           <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="0.65"/>
+          <prop k="line_width" v="0.6"/>
           <prop k="line_width_unit" v="MM"/>
           <prop k="offset" v="0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
@@ -690,6 +690,23 @@
         </layer>
       </symbol>
       <symbol alpha="1" type="line" name="26">
+        <layer pass="0" class="SimpleLine" locked="1">
+          <prop k="capstyle" v="round"/>
+          <prop k="customdash" v="5;2"/>
+          <prop k="customdash_map_unit_scale" v="0,0"/>
+          <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
+          <prop k="joinstyle" v="round"/>
+          <prop k="line_color" v="0,0,0,255"/>
+          <prop k="line_style" v="solid"/>
+          <prop k="line_width" v="0.6"/>
+          <prop k="line_width_unit" v="MM"/>
+          <prop k="offset" v="0"/>
+          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="use_custom_dash" v="0"/>
+          <prop k="width_map_unit_scale" v="0,0"/>
+        </layer>
         <layer pass="0" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="customdash" v="5;2"/>
@@ -699,7 +716,7 @@
           <prop k="joinstyle" v="round"/>
           <prop k="line_color" v="152,196,239,255"/>
           <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="0.5"/>
+          <prop k="line_width" v="0.6"/>
           <prop k="line_width_unit" v="MM"/>
           <prop k="offset" v="0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
@@ -718,7 +735,7 @@
           <prop k="joinstyle" v="round"/>
           <prop k="line_color" v="152,196,239,255"/>
           <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="0.3"/>
+          <prop k="line_width" v="0.2"/>
           <prop k="line_width_unit" v="MM"/>
           <prop k="offset" v="0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
@@ -737,7 +754,7 @@
           <prop k="joinstyle" v="bevel"/>
           <prop k="line_color" v="255,198,140,255"/>
           <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="0.2"/>
+          <prop k="line_width" v="0.14"/>
           <prop k="line_width_unit" v="MM"/>
           <prop k="offset" v="0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
@@ -754,7 +771,7 @@
           <prop k="joinstyle" v="round"/>
           <prop k="line_color" v="152,196,239,255"/>
           <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="0.2"/>
+          <prop k="line_width" v="0.14"/>
           <prop k="line_width_unit" v="MM"/>
           <prop k="offset" v="0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
@@ -773,7 +790,7 @@
           <prop k="joinstyle" v="round"/>
           <prop k="line_color" v="119,187,255,255"/>
           <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="0.2"/>
+          <prop k="line_width" v="0.14"/>
           <prop k="line_width_unit" v="MM"/>
           <prop k="offset" v="0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
@@ -790,7 +807,7 @@
           <prop k="joinstyle" v="bevel"/>
           <prop k="line_color" v="255,255,255,255"/>
           <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="0.0666667"/>
+          <prop k="line_width" v="0.0466667"/>
           <prop k="line_width_unit" v="MM"/>
           <prop k="offset" v="0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
@@ -1092,7 +1109,7 @@
       <symbol alpha="1" type="line" name="38">
         <layer pass="0" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
-          <prop k="customdash" v="5;2"/>
+          <prop k="customdash" v="1;1"/>
           <prop k="customdash_map_unit_scale" v="0,0"/>
           <prop k="customdash_unit" v="MM"/>
           <prop k="draw_inside_polygon" v="0"/>
@@ -1104,7 +1121,7 @@
           <prop k="offset" v="0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="use_custom_dash" v="0"/>
+          <prop k="use_custom_dash" v="1"/>
           <prop k="width_map_unit_scale" v="0,0"/>
         </layer>
       </symbol>
