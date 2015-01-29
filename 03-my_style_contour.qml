@@ -24,7 +24,7 @@
           <prop k="customdash_unit" v="MM"/>
           <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="bevel"/>
-          <prop k="line_color" v="57,57,56,255"/>
+          <prop k="line_color" v="140,101,15,255"/>
           <prop k="line_style" v="solid"/>
           <prop k="line_width" v="0.08"/>
           <prop k="line_width_unit" v="MM"/>
@@ -43,7 +43,7 @@
           <prop k="customdash_unit" v="MM"/>
           <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="bevel"/>
-          <prop k="line_color" v="107,107,106,255"/>
+          <prop k="line_color" v="184,132,21,255"/>
           <prop k="line_style" v="solid"/>
           <prop k="line_width" v="0.08"/>
           <prop k="line_width_unit" v="MM"/>
@@ -190,9 +190,9 @@
     <property key="labeling/shapeTransparency" value="0"/>
     <property key="labeling/shapeType" value="0"/>
     <property key="labeling/textColorA" value="255"/>
-    <property key="labeling/textColorB" value="12"/>
-    <property key="labeling/textColorG" value="13"/>
-    <property key="labeling/textColorR" value="13"/>
+    <property key="labeling/textColorB" value="14"/>
+    <property key="labeling/textColorG" value="90"/>
+    <property key="labeling/textColorR" value="125"/>
     <property key="labeling/textTransp" value="0"/>
     <property key="labeling/upsidedownLabels" value="0"/>
     <property key="labeling/wrapChar" value=""/>

@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.6.1-Brighton" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="5" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.6.1-Brighton" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="5" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
     <edittype widgetv2type="TextEdit" name="OGC_FID">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
@@ -91,44 +91,44 @@
       </rule>
       <rule filter="(&quot;landuse&quot; is not null) or (&quot;natural&quot; is not null) or (&quot;other_tags&quot; is not null) or (&quot;place&quot; is not null)" key="{5361b514-ca7a-4556-b5da-1b40d59ae009}" label="land_cover">
         <rule filter="(&quot;place&quot; is not null) or (&quot;natural&quot; is not null)" key="{6183aa2e-0a3e-4f17-ab83-f79e9b523569}" label="background">
-          <rule checkstate="0" filter="(&quot;place&quot; is not null) or (&quot;natural&quot; is not null)" key="{aa4deaae-5880-4419-94a1-8f5ef16bfc98}" label="land">
-            <rule checkstate="0" filter="&quot;natural&quot; = &quot;land&quot;" key="{686d7ac9-708c-45b3-8d97-c08a461a84a3}" symbol="2" label="land"/>
-            <rule scalemaxdenom="500000" checkstate="0" filter="&quot;place&quot; = 'island'" key="{1a17e9fa-bbf5-4016-83d9-61f9bd448a9c}" symbol="3" scalemindenom="500" label="island"/>
-            <rule scalemaxdenom="250000" checkstate="0" filter="&quot;place&quot; = 'islet'" key="{a2b1ce14-f115-4bf8-9b57-565bc979c8fc}" symbol="4" scalemindenom="500" label="islet"/>
-            <rule checkstate="0" filter="&quot;natural&quot; = 'background' " key="{14553e49-9a61-401b-b307-f782f13c8aec}" symbol="5" label="background"/>
+          <rule checkstate="0" filter="(&quot;place&quot; is not null) or (&quot;natural&quot; is not null)" key="{0f987a2f-177b-4037-a6af-0a2685775bd9}" label="land">
+            <rule checkstate="0" filter="&quot;natural&quot; = &quot;land&quot;" key="{94161981-b29c-4882-b493-4517e011c3fc}" symbol="2" label="land"/>
+            <rule scalemaxdenom="500000" checkstate="0" filter="&quot;place&quot; = 'island'" key="{30dda3dc-de9b-4335-8d09-eb17f46c7cc5}" symbol="3" scalemindenom="500" label="island"/>
+            <rule scalemaxdenom="250000" checkstate="0" filter="&quot;place&quot; = 'islet'" key="{e3f497c1-a0bf-4c3b-81ab-7eb279ae670b}" symbol="4" scalemindenom="500" label="islet"/>
+            <rule checkstate="0" filter="&quot;natural&quot; = 'background' " key="{10b2ff22-da1e-4e5c-a4b1-bf2a0b9bc5ef}" symbol="5" label="background"/>
           </rule>
-          <rule filter="&quot;natural&quot; is not null" key="{69732017-ac88-4a1c-b3c7-8ca6ad58a9ca}" label="sea">
-            <rule checkstate="0" filter="&quot;natural&quot; = 'sea' or  &quot;natural&quot;  =  'coastline' " key="{1fbcefad-8e94-450a-9fc5-affc43eb3729}" symbol="6" label="sea"/>
-            <rule scalemaxdenom="500000" filter="&quot;natural&quot; = 'bay'" key="{69e85d4e-0d2a-4d0b-b01b-3c158f5560fd}" symbol="7" scalemindenom="500" label="bay"/>
+          <rule filter="&quot;natural&quot; is not null" key="{6215ad4d-0d0a-42fe-b641-1b34827391b3}" label="sea">
+            <rule checkstate="0" filter="&quot;natural&quot; = 'sea' or  &quot;natural&quot;  =  'coastline' " key="{4435ac2d-6c79-4200-b1ea-25af4045d0f1}" symbol="6" label="sea"/>
+            <rule scalemaxdenom="500000" filter="&quot;natural&quot; = 'bay'" key="{af6570a4-b78b-460e-b2d5-594a7b218262}" symbol="7" scalemindenom="500" label="bay"/>
           </rule>
         </rule>
         <rule filter="(&quot;landuse&quot; is not null) or (&quot;natural&quot; is not null) or (&quot;other_tags&quot; is not null)" key="{ebf7a5a0-3722-4bdf-a92a-fe2fcebd042b}" label="other_natural_landcover">
-          <rule scalemaxdenom="250000" filter="&quot;landuse&quot; in ('forest','wood') or &quot;natural&quot; in ('wood','forest','woodland') or  &quot;other_tags&quot;  like '%&quot;wood&quot;=>&quot;%&quot;%'" key="{83f90c58-00d3-4e45-93f7-caf26d464098}" symbol="8" scalemindenom="500" label="forest"/>
-          <rule scalemaxdenom="250000" filter="&quot;natural&quot; in ('scrub','shrub','scrubland','scrubs','shrubs','shrubland')" key="{102fef33-b10d-4c6a-b4b4-cef5bb002fce}" symbol="9" scalemindenom="500" label="scrub"/>
-          <rule scalemaxdenom="250000" filter="&quot;natural&quot; =  'heath' " key="{f2010fe5-ae23-4c31-bfe6-3c99db3666b9}" symbol="10" scalemindenom="500" label="heathland"/>
-          <rule scalemaxdenom="250000" filter="&quot;natural&quot;  =  'fell' " key="{5f2453de-d56a-4893-99e3-81e88a29ddc3}" symbol="11" scalemindenom="500" label="fell"/>
-          <rule scalemaxdenom="250000" filter="&quot;natural&quot;  in ('marsh','wetland','swamp','mud')" key="{e0700a79-7485-4e80-8cfc-2c7fe370c015}" symbol="12" scalemindenom="500" label="marsh"/>
-          <rule scalemaxdenom="250000" filter="&quot;natural&quot; in ('grass','meadow','grassland') or &quot;landuse&quot; in ('grass','meadow','grassland','grazing','greenfield','pasture','village_green' )" key="{24dc9868-f78f-4910-8a7b-44f45c2487a8}" symbol="13" scalemindenom="500" label="grass"/>
-          <rule scalemaxdenom="250000" filter="&quot;natural&quot; in ('bare_rock','bedrock','cliff','lava','rock','stone')" key="{19ff1484-3884-4aec-b5fb-2d38f939e2d1}" symbol="14" scalemindenom="500" label="bare_rock"/>
-          <rule scalemaxdenom="250000" filter="&quot;natural&quot; = 'scree'" key="{55c42b46-9788-4433-8ce0-9e794262146c}" symbol="15" scalemindenom="500" label="scree"/>
-          <rule scalemaxdenom="500000" filter="&quot;natural&quot; = 'glacier'" key="{ee3ff7b9-f7a8-4a1f-bdc1-481e4c34f8b1}" symbol="16" scalemindenom="500" label="glacier"/>
-          <rule scalemaxdenom="500000" filter="&quot;natural&quot; in ('beach','sand','dune','desert')" key="{cb96478b-18c9-4f04-89e6-83452e406d9b}" symbol="17" scalemindenom="500" label="sand"/>
-          <rule scalemaxdenom="250000" filter="other_tags like '%&quot;water&quot;=>&quot;tidal&quot;%' " key="{f05142e1-5eda-435d-b0ac-bbb5f9f33866}" symbol="18" scalemindenom="500" label="tidal"/>
-          <rule scalemaxdenom="250000" filter="&quot;landuse&quot; in ('farm','farmyard','vineyard','orchard','orchards','allotments') or &quot;natural&quot; in ('orchard','orchards')" key="{e23258cf-c7cd-487f-afb0-f0ffe72b7090}" symbol="19" scalemindenom="500" label="agriculture"/>
-          <rule filter=" &quot;natural&quot;  =   'cliff' or  &quot;natural&quot;  =  'clif' " key="{ed73c59a-4241-4959-bda9-e226a1ca7064}" symbol="20" label="cliff"/>
+          <rule scalemaxdenom="250000" filter="&quot;landuse&quot; in ('forest','wood') or &quot;natural&quot; in ('wood','forest','woodland') or  &quot;other_tags&quot;  like '%&quot;wood&quot;=>&quot;%&quot;%'" key="{df57f370-981b-473f-99bd-4b8cacf66289}" symbol="8" scalemindenom="500" label="forest"/>
+          <rule scalemaxdenom="250000" filter="&quot;natural&quot; in ('scrub','shrub','scrubland','scrubs','shrubs','shrubland')" key="{ec215517-5bf4-4718-a0f0-d5c81b12168d}" symbol="9" scalemindenom="500" label="scrub"/>
+          <rule scalemaxdenom="250000" filter="&quot;natural&quot; =  'heath' " key="{8790e128-8160-465d-9ecf-944c37c8eadc}" symbol="10" scalemindenom="500" label="heathland"/>
+          <rule scalemaxdenom="250000" filter="&quot;natural&quot;  =  'fell' " key="{481fd2fa-f63c-4437-a4c0-dddbe1b17a98}" symbol="11" scalemindenom="500" label="fell"/>
+          <rule scalemaxdenom="250000" filter="&quot;natural&quot;  in ('marsh','wetland','swamp','mud')" key="{404cb45a-bd5f-4d58-998b-6e8d3ad99f76}" symbol="12" scalemindenom="500" label="marsh"/>
+          <rule scalemaxdenom="250000" filter="&quot;natural&quot; in ('grass','meadow','grassland') or &quot;landuse&quot; in ('grass','meadow','grassland','grazing','greenfield','pasture','village_green' )" key="{ce969e2f-f4fa-41a0-bd7b-21edceb2d1ad}" symbol="13" scalemindenom="500" label="grass"/>
+          <rule scalemaxdenom="250000" filter="&quot;natural&quot; in ('bare_rock','bedrock','cliff','lava','rock','stone')" key="{a18e7447-2331-41b5-88cc-34cfe12c095d}" symbol="14" scalemindenom="500" label="bare_rock"/>
+          <rule scalemaxdenom="250000" filter="&quot;natural&quot; = 'scree'" key="{968cfb01-7927-443c-ae09-2a3cfcaa0d5f}" symbol="15" scalemindenom="500" label="scree"/>
+          <rule scalemaxdenom="500000" filter="&quot;natural&quot; = 'glacier'" key="{d0c08ca0-cb82-42dc-ab07-f708e05c6f86}" symbol="16" scalemindenom="500" label="glacier"/>
+          <rule scalemaxdenom="500000" filter="&quot;natural&quot; in ('beach','sand','dune','desert')" key="{12d432ee-9d2b-4587-b332-1c0e88e73982}" symbol="17" scalemindenom="500" label="sand"/>
+          <rule scalemaxdenom="250000" filter="other_tags like '%&quot;water&quot;=>&quot;tidal&quot;%' " key="{9e0d7e52-6bf0-4c9b-a36a-be058a3ff982}" symbol="18" scalemindenom="500" label="tidal"/>
+          <rule scalemaxdenom="250000" filter="&quot;landuse&quot; in ('farm','farmyard','vineyard','orchard','orchards','allotments') or &quot;natural&quot; in ('orchard','orchards')" key="{4c6f1c12-cf18-4817-986b-212e63cbcd8b}" symbol="19" scalemindenom="500" label="agriculture"/>
+          <rule filter=" &quot;natural&quot;  =   'cliff' or  &quot;natural&quot;  =  'clif' " key="{e7036f81-442e-437c-a5fb-5cc0d6ba91cf}" symbol="20" label="cliff"/>
         </rule>
         <rule filter="(&quot;landuse&quot; is not null) or (&quot;man_made&quot; is not null) or (&quot;aeroway&quot; is not null) or (&quot;building&quot; is not null)" key="{7050b344-93e4-4220-b4a3-b9bb5771d1c6}" label="man_made_landcover">
-          <rule scalemaxdenom="250000" filter="&quot;aeroway&quot; in ('airport','aerodrome','runway' )" key="{65bc1236-0569-4766-8b56-d0b0658dff8e}" symbol="21" scalemindenom="500" label="aeroway"/>
-          <rule scalemaxdenom="250000" filter="&quot;landuse&quot;='industrial'" key="{413280fa-a18a-4eb3-8831-8993261dc100}" symbol="22" scalemindenom="500" label="industrial"/>
-          <rule scalemaxdenom="250000" filter="&quot;landuse&quot; in ('quarry', 'mining' )" key="{b9504c6d-3a7c-4c27-a2e8-9d6e7efc48d7}" symbol="23" scalemindenom="500" label="quarry"/>
-          <rule scalemaxdenom="10000" filter=" &quot;building&quot; like ('%')" key="{cdb076d1-ef06-4569-a220-e40b3f37788a}" symbol="24" scalemindenom="500" label="building"/>
-          <rule scalemaxdenom="250000" filter=" &quot;man_made&quot;  =  'pier' " key="{93616e60-5f3e-4d79-8fac-d10d102589ad}" symbol="25" scalemindenom="500" label="pier"/>
+          <rule scalemaxdenom="250000" filter="&quot;aeroway&quot; in ('airport','aerodrome','runway' )" key="{c686c59f-ea2d-4b0c-8c64-8ae60fa3ef0f}" symbol="21" scalemindenom="500" label="aeroway"/>
+          <rule scalemaxdenom="250000" filter="&quot;landuse&quot;='industrial'" key="{bb0895b5-1f1f-4117-93b8-028edd54b4cf}" symbol="22" scalemindenom="500" label="industrial"/>
+          <rule scalemaxdenom="250000" filter="&quot;landuse&quot; in ('quarry', 'mining' )" key="{30b2b505-4cd3-4d2e-a913-600fa8b58184}" symbol="23" scalemindenom="500" label="quarry"/>
+          <rule scalemaxdenom="10000" filter=" &quot;building&quot; like ('%')" key="{3a19eeea-7d81-4373-9893-dc216bb938ff}" symbol="24" scalemindenom="500" label="building"/>
+          <rule scalemaxdenom="250000" filter=" &quot;man_made&quot;  =  'pier' " key="{810f5a02-cbb1-4818-a0b2-0f643e28b8f0}" symbol="25" scalemindenom="500" label="pier"/>
         </rule>
       </rule>
       <rule filter="(&quot;natural&quot; is not null) or (&quot;amenity&quot; is not null) or (&quot;boundary&quot; is not null) or (&quot;leisure&quot; is not null)  or (&quot;military&quot; is not null) or (&quot;landuse&quot; is not null) " key="{1fbb2885-1434-4da3-a2a7-86f0a8c05021}" label="area">
         <rule filter=" &quot;natural&quot;  =  'mountain_range'  " key="{13def882-cff4-4c6f-b4a5-5a6baf1d2d6a}" label="mountains_names"/>
         <rule scalemaxdenom="1000000" filter="&quot;landuse&quot;='military' or &quot;military&quot; in ('airfield','barracks', 'danger_area','range','training_area'  ) or &quot;amenity&quot;='prison'" key="{0207baf2-c15e-4a55-b417-888c7c42b291}" symbol="26" scalemindenom="10000" label="danger"/>
-        <rule scalemaxdenom="1000000" filter=" &quot;boundary&quot; in ('national_park' , 'protected_area','nature_reserve') or  &quot;landuse&quot;  in ('conservation','nature_reserve')  or  &quot;leisure&quot; in  ('nature_reserve')" key="{2b900696-c466-4f38-afb5-b0069214e754}" symbol="27" scalemindenom="10000" label="protected"/>
+        <rule scalemaxdenom="1000000" checkstate="0" filter=" &quot;boundary&quot; in ('national_park' , 'protected_area','nature_reserve') or  &quot;landuse&quot;  in ('conservation','nature_reserve')  or  &quot;leisure&quot; in  ('nature_reserve')" key="{2b900696-c466-4f38-afb5-b0069214e754}" symbol="27" scalemindenom="10000" label="protected"/>
       </rule>
     </rules>
     <symbols>
@@ -321,7 +321,7 @@
       <symbol alpha="1" type="fill" name="13">
         <layer pass="10" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0"/>
-          <prop k="color" v="233,252,189,255"/>
+          <prop k="color" v="237,252,202,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
@@ -941,7 +941,7 @@
       <symbol alpha="1" type="fill" name="8">
         <layer pass="10" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0"/>
-          <prop k="color" v="186,221,105,255"/>
+          <prop k="color" v="221,245,134,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
