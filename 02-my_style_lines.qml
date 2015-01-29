@@ -40,26 +40,26 @@
       </rule>
       <rule filter="&quot;highway&quot; is not null" key="{625c33c2-760f-42b7-bad1-ed172e8a77a2}" label="highways">
         <rule key="{44614592-2643-4b02-9458-d1bb19f7314c}" label="roads">
-          <rule filter="&quot;highway&quot;  =  'motorway' " key="{2d4252e9-fa04-47b5-a182-300a442b1551}" symbol="2" label="motorway"/>
-          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'motorway_link' " key="{bfdc466e-e6fb-426c-9ab4-9d8d4f4246df}" symbol="3" scalemindenom="500" label="motorway_link"/>
-          <rule filter="&quot;highway&quot;  =  'trunk' " key="{a125052f-b061-486a-9d93-79aab740a9b6}" symbol="4" label="trunk"/>
-          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =   'trunk_link' " key="{fdf957de-3e6c-4908-8fb3-9934abb109fd}" symbol="5" scalemindenom="500" label="trunk_link"/>
-          <rule scalemaxdenom="500000" filter="&quot;highway&quot;  =   'primary' " key="{e50d0990-b41f-4ffa-b4b7-85db1eb89a1e}" symbol="6" scalemindenom="500" label="primary"/>
-          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'primary_link' " key="{ec8ad9b6-206b-421e-9605-6602cb8c4d10}" symbol="7" scalemindenom="500" label="primary_link"/>
-          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  =  'secondary' " key="{365ea799-ade5-4707-9b54-46052d69b673}" symbol="8" scalemindenom="500" label="secondary"/>
-          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'secondary_link' " key="{6fba2d24-0f24-4c89-9a74-93885f37107c}" symbol="9" scalemindenom="500" label="secondary_link"/>
-          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  =  'tertiary' " key="{78f49cff-0e43-4b52-811d-4e9c19ba95fd}" symbol="10" scalemindenom="500" label="terciary"/>
-          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'tertiary_link' " key="{265b9beb-1dfe-4d7c-8e54-64276c875301}" symbol="11" scalemindenom="500" label="terciary_link"/>
+          <rule filter="&quot;highway&quot;  =  'motorway' " key="{ec55dc6b-f957-4820-b29e-f0ded179f3f2}" symbol="2" label="motorway"/>
+          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'motorway_link' " key="{70af7162-157b-4d5c-a081-44816581802d}" symbol="3" scalemindenom="500" label="motorway_link"/>
+          <rule filter="&quot;highway&quot;  =  'trunk' " key="{fd6a6bef-55ac-4429-aff9-0523362f31dc}" symbol="4" label="trunk"/>
+          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =   'trunk_link' " key="{f2cd6e34-8471-4692-8e19-40f588218075}" symbol="5" scalemindenom="500" label="trunk_link"/>
+          <rule scalemaxdenom="500000" filter="&quot;highway&quot;  =   'primary' " key="{ec115ded-74b1-45c1-8aa1-74016f925925}" symbol="6" scalemindenom="500" label="primary"/>
+          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'primary_link' " key="{527dc44f-df73-4397-9e55-b331d5180972}" symbol="7" scalemindenom="500" label="primary_link"/>
+          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  =  'secondary' " key="{0c429c57-0847-4d63-a441-a8159c991778}" symbol="8" scalemindenom="500" label="secondary"/>
+          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'secondary_link' " key="{d4bebea6-a371-48b9-a506-d2522f92dc5c}" symbol="9" scalemindenom="500" label="secondary_link"/>
+          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  =  'tertiary' " key="{02651a51-855c-43a1-9f82-47058150c51c}" symbol="10" scalemindenom="500" label="terciary"/>
+          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =  'tertiary_link' " key="{d1eb09a2-a4f9-4df7-bceb-d9b3f794202c}" symbol="11" scalemindenom="500" label="terciary_link"/>
         </rule>
         <rule key="{22302246-ffd9-4a3e-878c-d17ef66864d1}" label="paths">
-          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  in  ('track' ,'track;path','unclassified;track','unknown','yes','unsurfaced','unclassified')" key="{0103a044-8bf5-4df4-83a6-f36333c9e35f}" symbol="12" scalemindenom="500" label="track"/>
-          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  in  ('almost_path','bridleway','bridleway;track','path' ,'tiny-path','tiny-path-maybe','tinypath','track;path','via_ferrata')" key="{8a64cab7-f4c5-42cc-80cc-1dab54f750e3}" symbol="13" scalemindenom="500" label="path"/>
-          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  =  'footway' " key="{066e7361-ee9d-4dc2-8969-ada46c15c0c2}" symbol="14" scalemindenom="500" label="footway"/>
-          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  =  'pedestrian' " key="{ef47eb7e-10b7-46c0-ad4b-8c797d697c66}" symbol="15" scalemindenom="500" label="pedestrian"/>
-          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =   'cycleway' " key="{450e3feb-7f75-484a-a170-ee758421e523}" symbol="16" scalemindenom="500" label="cycleway"/>
-          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  in  ('residential','living_street')" key="{936387b6-f4c8-44db-a3e9-c6d31485f73c}" symbol="17" scalemindenom="500" label="residental"/>
-          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  =  'services' " key="{5ac45c66-0e41-4b6a-8f33-d167fdd5c1d0}" symbol="18" scalemindenom="500" label="services"/>
-          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  in  ('stairs','steps' )" key="{67d2f284-8a37-4ae4-993b-4e8dbce4a0e0}" symbol="19" scalemindenom="500" label="stairs"/>
+          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  in  ('track' ,'track;path','unclassified;track','unknown','yes','unsurfaced','unclassified')" key="{22e0d15d-d4ce-44f0-a1a1-35043ecfa4af}" symbol="12" scalemindenom="500" label="track"/>
+          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  in  ('almost_path','bridleway','bridleway;track','path' ,'tiny-path','tiny-path-maybe','tinypath','track;path','via_ferrata')" key="{3a8359b0-5d7e-448d-a5c3-8d6eb093111a}" symbol="13" scalemindenom="500" label="path"/>
+          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  =  'footway' " key="{1a4910a3-9f56-40d5-8c0b-1c00e49e274d}" symbol="14" scalemindenom="500" label="footway"/>
+          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  =  'pedestrian' " key="{53bfcadd-d245-4941-a658-8826ce7d0c04}" symbol="15" scalemindenom="500" label="pedestrian"/>
+          <rule scalemaxdenom="50000" filter="&quot;highway&quot;  =   'cycleway' " key="{700ff9d1-8913-4ec6-81ea-3cebc06d3aff}" symbol="16" scalemindenom="500" label="cycleway"/>
+          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  in  ('residential','living_street')" key="{f9bb1397-f417-40fc-815e-9fd24271398b}" symbol="17" scalemindenom="500" label="residental"/>
+          <rule scalemaxdenom="250000" filter="&quot;highway&quot;  =  'services' " key="{9d90b746-8e6d-4129-9906-6f68980c2c72}" symbol="18" scalemindenom="500" label="services"/>
+          <rule scalemaxdenom="25000" filter="&quot;highway&quot;  in  ('stairs','steps' )" key="{04ae58c9-65d0-4c06-adf9-8e12cc18bad2}" symbol="19" scalemindenom="500" label="stairs"/>
         </rule>
       </rule>
       <rule filter="&quot;other_tags&quot; is not null" key="{e0f8c1c5-d1c5-44c1-8298-f71c7b686420}" label="railways">
@@ -912,7 +912,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="23,23,22,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="cross2"/>
+              <prop k="name" v="rectangle"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -922,7 +922,7 @@
               <prop k="outline_width_map_unit_scale" v="0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="area"/>
-              <prop k="size" v="1.2"/>
+              <prop k="size" v="0.6"/>
               <prop k="size_map_unit_scale" v="0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -965,7 +965,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="23,23,22,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="cross2"/>
+              <prop k="name" v="rectangle"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -975,7 +975,7 @@
               <prop k="outline_width_map_unit_scale" v="0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="area"/>
-              <prop k="size" v="1.2"/>
+              <prop k="size" v="0.6"/>
               <prop k="size_map_unit_scale" v="0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -1076,7 +1076,7 @@
       </symbol>
       <symbol alpha="1" type="line" name="39">
         <layer pass="20" class="MarkerLine" locked="0">
-          <prop k="interval" v="3"/>
+          <prop k="interval" v="3.5"/>
           <prop k="interval_map_unit_scale" v="0,0"/>
           <prop k="interval_unit" v="MM"/>
           <prop k="offset" v="0"/>
@@ -1089,20 +1089,20 @@
           <prop k="rotate" v="1"/>
           <symbol alpha="1" type="marker" name="@39@0">
             <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="25"/>
-              <prop k="color" v="23,23,22,255"/>
+              <prop k="angle" v="0"/>
+              <prop k="color" v="255,255,255,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="line"/>
-              <prop k="offset" v="0,0.6"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="38,38,37,255"/>
+              <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="5.55112e-17"/>
+              <prop k="outline_width" v="0"/>
               <prop k="outline_width_map_unit_scale" v="0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="area"/>
-              <prop k="size" v="1"/>
+              <prop k="size" v="0.6"/>
               <prop k="size_map_unit_scale" v="0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
