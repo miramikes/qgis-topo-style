@@ -10,6 +10,10 @@ gdal_merge.py -o out.tif *.hgt
 "highway" is not null
 other_tags LIKE '%"admin_level"=>"2"%' 
 
+PRINT
+
+3mm margin for all sides !!!!!!
+
 
 LABELING
 
