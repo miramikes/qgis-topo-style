@@ -1,32 +1,35 @@
+# Create SPATIALITE database
+
 ogr2ogr -f "SQLite" -dsco SPATIALITE=YES -spat 2.59 46.58 -1.44 47.07 noirmoutier.db noirmoutier.pbf
-ogr2ogr -f "SQLite" -dsco SPATIALITE=YES czech-contour-2.db contour.pbf
 
-ogr2ogr -f "SQLite" -dsco SPATIALITE=YES czech-contour.db contour.pbf --config OGR_INTERLEAVED_READING YES
+# ogr2ogr -f "SQLite" -dsco SPATIALITE=YES czech-contour-2.db contour.pbf
+# ogr2ogr -f "SQLite" -dsco SPATIALITE=YES czech-contour.db contour.pbf --config OGR_INTERLEAVED_READING YES
 
+# Create tif file for contours
 gdal_merge.py -o out.tif *.hgt
+gdal_contour -a ELEV -i 50.0 out.tif xxx-contour.sqlite
+
+Add Vector layer -> contour.shp (file)
 
 "building" IN ( 'church','cathedral')
  "aeroway" is not null or "landuse" = 'industrial'
 "highway" is not null
 other_tags LIKE '%"admin_level"=>"2"%' 
 
-PRINT
+# PRINT
 
 3mm margin for all sides !!!!!!
 
-
-LABELING
+# LABELING
 
 CASE WHEN "waterway" = 'river' THEN name END
 CASE WHEN "waterway" = 'river' or "waterway" = 'stream' THEN name END
 CASE WHEN "waterway" = 'river' or "waterway" = 'stream' or "highway" = 'motorway' or "highway" = 'trunk' or "highway" = 'primary' THEN name END
-
 CASE WHEN "natural" = 'mountain_range' or "boundary" in ('national_park','protected_area','nature_reserve') or "natural" = 'water' THEN name END
 
 POLYGONS
 			
 # places=*	
-
 # moutain_range
 
 LINES
@@ -37,20 +40,13 @@ POINTS
 
 # ford=yes | highway=ford	
 # man_made=lighthouse 
-
 # tourism=viewpoint
-
 # tourism=information information=office  
 # information=guidepost information=board  information=terminal information=map 
-
 # tourism=hotel | tourism=motel | tourism=guest_house | tourism=hostel tourism=chalet 	
-					
 # tourism=camp_site tourism=caravan_site
- 					
 # tourism=bed_and_breakfast 				
-
 # tourism=alpine_hut tourism=wilderness_hut amenity=shelter | shelter_type=basic_hut 		
 # tourism=lean_to | shelter_type=lean_to			
-
 # building=cabin | tourism=cabin 
 # historic=ruins | building=collapsed 
